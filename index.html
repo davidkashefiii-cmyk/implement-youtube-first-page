@@ -9,22 +9,32 @@
             width:300px ;
             display: block;
         }
-        .Searchbar{
+        .search-bar{
             font-size: 15px;
             padding:10px ;
             margin-left: 20px;
             border-color: blue;
+            display: block;
         }
         .video-title{
             width:300px;
         }
-       
-        
+       .video-preview{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+       }
+
     </style>
 
 </head>
 <body>
-     <input type="text" placeholder="Search..." class="search-bar" >
+        <input class="search-bar" type="text" placeholder="Search..."  >
+
+
+    <div class="video-preview">
+
     <img class="thumbnail" src="/thumbnail/hq720 (1).avif" alt="pic" >
    
     <p class="video-title">
@@ -35,7 +45,24 @@
     </p>
     <p class="video-stats">
         3.4M views - ago 6 months
-
    </p>
+   </div>
+
+
+   <div class="video-preview">
+        
+    <img class="thumbnail" src="/thumbnail/hq720 (2).avif" alt="pic" >
+   
+    <p class="video-title">
+        Instrumental music for programmers
+    <p class="video-author">
+        MR ROBOT FANS
+    </p>
+    <p class="video-stats">
+        1.4M views - ago 6 months
+   </p>
+   </div>
+
+
 </body>
 </html>
