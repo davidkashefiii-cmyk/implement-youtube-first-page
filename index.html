@@ -13,8 +13,7 @@
             font-family: Roboto , Arial;
         }
         .thumbnail{
-            width:300px ;
-            display: block;
+           width: 100%;
         }
         .search-bar{
             font-size: 15px;
@@ -30,25 +29,11 @@
             margin-bottom: 13px;
         }
 
-       .video-preview{
-        width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
+       .video-pic-info{
+        display: grid;
+        grid-template-columns: 50px 1fr;
        }
-
-       .chanel-pic{
-        display: inline-block;
-        width: 40px;
-        vertical-align: top;
-       }
-
-       .video-info{
-        display: inline-block;
-        width: 200px;
-        vertical-align: top;
-       }
-
+      
        .chanel-image{
         width: 100%;
         border-radius: 50%;
@@ -64,6 +49,12 @@
         margin-bottom: 10px;
        }
 
+       .video-grid{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 20px;
+    }
 
     </style>
 
@@ -71,13 +62,13 @@
 <body>
         <input class="search-bar" type="text" placeholder="Search..."  >
 
-
-  <div class="video-preview">
+<div class="video-grid">
+     <div class="video-preview">
 
         <div class="thumbnail-container">    
             <img class="thumbnail" src="/thumbnail/hq720 (1).avif" alt="pic" >
         </div>
-      <div>
+      <div class="video-pic-info">
               <div class="chanel-pic">
                  <img class="chanel-image" src="./chanel images/channels4_profile (1).jpg" alt="pic">
              </div>
@@ -94,15 +85,15 @@
                        </p>
              </div>
       </div>
- </div>
+     </div>
 
-  <div class="video-preview">
+    <div class="video-preview">
 
         <div class="thumbnail-container">     
             <img class="thumbnail" src="/thumbnail/hq720 (2).avif" alt="pic">
        </div>
 
-        <div>
+        <div class="video-pic-info">
              <div class="chanel-pic">
                 <img class="chanel-image" src="./chanel images/channels4_profile (2).jpg" alt="pic">
              </div>
@@ -118,7 +109,106 @@
                  </p>
              </div>
         </div>
-   </div>
+    </div>
+
+     <div class="video-preview">
+
+        <div class="thumbnail-container">    
+            <img class="thumbnail" src="/thumbnail/hq720 (1).avif" alt="pic" >
+        </div>
+      <div class="video-pic-info">
+              <div class="chanel-pic">
+                 <img class="chanel-image" src="./chanel images/channels4_profile (1).jpg" alt="pic">
+             </div>
+           
+              <div class="video-info" >
+                  <p class="video-title">
+                    Enrique Iglesias - Tonight (I'm Lovin' You) ft. Ludacris,DJ Frank E
+                    </p>
+                      <p class="video-author">
+                         Enrique Iglesias
+                      </p>
+                       <p class="video-stats">
+                          3.4M views - ago 6 months
+                       </p>
+             </div>
+      </div>
+     </div>
+
+    <div class="video-preview">
+
+        <div class="thumbnail-container">     
+            <img class="thumbnail" src="/thumbnail/hq720 (2).avif" alt="pic">
+       </div>
+
+        <div class="video-pic-info">
+             <div class="chanel-pic">
+                <img class="chanel-image" src="./chanel images/channels4_profile (2).jpg" alt="pic">
+             </div>
+           
+             <div class="video-info" >
+                 <p class="video-title">
+                 Instrumental music for programmers
+                 <p class="video-author">
+                  MR ROBOT FANS
+                     </p>
+                  <p class="video-stats">
+                 1.4M views - ago 6 months
+                 </p>
+             </div>
+        </div>
+    </div>
+
+     <div class="video-preview">
+
+        <div class="thumbnail-container">    
+            <img class="thumbnail" src="/thumbnail/hq720 (1).avif" alt="pic" >
+        </div>
+      <div class="video-pic-info">
+              <div class="chanel-pic">
+                 <img class="chanel-image" src="./chanel images/channels4_profile (1).jpg" alt="pic">
+             </div>
+           
+              <div class="video-info" >
+                  <p class="video-title">
+                    Enrique Iglesias - Tonight (I'm Lovin' You) ft. Ludacris,DJ Frank E
+                    </p>
+                      <p class="video-author">
+                         Enrique Iglesias
+                      </p>
+                       <p class="video-stats">
+                          3.4M views - ago 6 months
+                       </p>
+             </div>
+      </div>
+     </div>
+
+    <div class="video-preview">
+
+        <div class="thumbnail-container">     
+            <img class="thumbnail" src="/thumbnail/hq720 (2).avif" alt="pic">
+       </div>
+
+        <div class="video-pic-info">
+             <div class="chanel-pic">
+                <img class="chanel-image" src="./chanel images/channels4_profile (2).jpg" alt="pic">
+             </div>
+           
+             <div class="video-info" >
+                 <p class="video-title">
+                 Instrumental music for programmers
+                 <p class="video-author">
+                  MR ROBOT FANS
+                     </p>
+                  <p class="video-stats">
+                 1.4M views - ago 6 months
+                 </p>
+             </div>
+        </div>
+    </div>
+
+</div>
+ 
 
 
 </body>
