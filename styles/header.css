@@ -5,3 +5,20 @@
             border-color: blue;
             display: block;
         }
+
+.header{
+   height: 50px;
+   display: flex;
+   flex-direction: row; 
+     justify-content:space-between ;
+}        
+.right-section{
+    width: 150px;
+}
+.middle-section{
+    flex:1;
+    max-width: 500px;
+}
+.left-section{
+    width: 200px;
+}
