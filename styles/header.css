@@ -1,11 +1,17 @@
 .search-bar{
             font-size: 15px;
-            padding:10px ;
+            padding-left:10px ;
             margin-left: 20px;
-            border-color: blue;
-            display: block;
+            height: 31px;
+            border: solid 1px gray;
+            border-radius: 2px;
+            box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.288);
+            flex:1;
+            width: 0;
         }
-
+.search-bar::placeholder{
+    color: rgb(158, 158, 158);
+}
 .header{
    height: 50px;
    display: flex;
@@ -14,11 +20,61 @@
 }        
 .right-section{
     width: 150px;
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    height:20px !important ; 
+    margin-right: 10px;
+    width: 30px !important ;
+    margin-left: 13px;
+}
+.youtube-logo{
+    height: 25px ;
 }
 .middle-section{
     flex:1;
     max-width: 500px;
+    display: flex;
+    align-items: center;
 }
 .left-section{
-    width: 200px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-shrink: 0;
+
+}
+.search-btn{
+    height: 34px;
+    width: 50px;
+    background-color: rgb(203, 203, 203);
+    margin: -1px ;
+}
+.mic-icon{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.video-icon{
+    width: 20px;
+}
+.app-icon{
+    width: 20px;
+
+}
+.bell-icon{
+    width: 20px;
+
+}
+.chanel-icon{
+        width: 40px;
+        border-radius: 50%;
+
 }
