@@ -62,6 +62,21 @@
     background-color: rgb(203, 203, 203);
     margin: -1px ;
 }
+.search-btn:hover .tooltip , .mic-icon:hover .tooltip{
+    opacity: 1;
+}
+.tooltip{
+    position: absolute;
+    bottom: -33px;
+    background-color: rgb(187, 187, 187);
+    padding:5px;
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
 .mic-icon{
     width: 34px;
     height: 34px;
@@ -70,6 +85,16 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.mic-icon , .search-btn{
+     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .video-icon{
     width: 20px;
 }
