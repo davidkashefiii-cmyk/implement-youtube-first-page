@@ -27,6 +27,18 @@
        }
        .thumbnail-container{
         margin-bottom: 10px;
+        position:relative ;
+       }
+       .video-time{
+        position: absolute;
+        background-color: black;
+        color: white;
+        right: 7px;
+        bottom: 10px;
+        font-family: Robboto , Arial ;
+        font-size:12px;
+        padding:5px 8px;
+        border-radius:2px;
        }
 
        .video-grid{
